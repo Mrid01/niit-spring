@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+xmlns = "http://www.springframework.org/schema/beans"
+xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation = "
+http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+
+<bean id = "custBean" class = "com.niit.models.Customer">
+
+<property name = "custId" value = "01"/>
+<property name = "custName" value = "Mridul"/>
+<property name = "custAddress" value = "AFS Jalhalli"/> 
+
+<!-- <constructor-arg value = "202"/> -->
+<!-- <constructor-arg value = "Ishuu"/> -->
+<!-- <constructor-arg value = "151,3rd main road"/> -->
+
+</bean>
+</beans>
